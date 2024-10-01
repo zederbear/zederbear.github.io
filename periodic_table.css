@@ -1,0 +1,159 @@
+th,
+td {
+  border: 2px solid black;
+  text-align:center;
+  font-size:24px;
+  border-radius: 5px;
+  width:20px;
+}
+#emptybox {
+  border: 0px solid black;
+  height:15px;
+}
+#noblegasses {
+  background-color:#fbe4ec;
+  color:#cd1d5e;
+  border: 0px solid #cd1d5e;
+}
+#noblegasses:hover {
+  background-color:#fbe4ec;
+  color:#cd1d5e;
+  border: 1px solid #cd1d5e;
+}
+#reactivenonmetals {
+  background-color:#e2eeff;
+  color:#0060f0;
+  border: 0px solid #0060f0;
+}
+#reactivenonmetals:hover {
+  background-color:#e2eeff;
+  color:#0060f0;
+  border: 1px solid #0060f0;
+}
+#transitionmetals {
+  background-color:#f3e8fd;
+  color:#6232ec;
+  border: 0px solid #6232ec;
+}
+#transitionmetals:hover {
+  background-color:#f3e8fd;
+  color:#6232ec;
+  border: 1px solid #6232ec;
+}
+#metalloids {
+  background-color:#fef7e0;
+  color:#945700;
+  border: 0px solid #945700;
+}
+#metalloids:hover {
+  background-color:#fef7e0;
+  color:#945700;
+  border: 1px solid #945700;
+}
+#posttransitionmetals {
+  background-color:#d6f9e8;
+  color:#2f7c5d;
+  border: 0px solid #2f7c5d;
+}
+#posttransitionmetals:hover {
+  background-color:#d6f9e8;
+  color:#2f7c5d;
+  border: 1px solid #2f7c5d;
+}
+#unknownproperties {
+  color:#4c465c;
+  background-color:#e7e7ea;
+  border: 0px solid #4c465c;
+}
+#unknownproperties:hover {
+  color:#4c465c;
+  background-color:#e7e7ea;
+  border: 1px solid #4c465c;
+}
+#alkalimetals {
+  color:#188098;
+  background-color:#d8f8ff;
+  border: 0px solid #188098;
+}
+#alkalimetals:hover {
+  color:#188098;
+  background-color:#d8f8ff;
+  border: 1px solid #188098;
+}
+#alkalineearthmetals {
+  color:#d70b2c;
+  background-color:#ffe7e7;
+  border:0px solid #d70b2c;
+}
+#alkalineearthmetals:hover {
+  color:#d70b2c;
+  background-color:#ffe7e7;
+  border:1px solid #d70b2c;
+}
+#lanthanides {
+  color:#003355;
+  background-color:#dff3ff;
+  border: 0px solid #003355;
+}
+#lanthanides:hover {
+  color:#003355;
+  background-color:#dff3ff;
+  border: 1px solid #003355;
+}
+#actinides {
+  color:#c73200;
+  background-color:#ffe6d4;
+  border: 0px solid #c73200;
+}
+#actinides:hover {
+  color:#c73200;
+  background-color:#ffe6d4;
+  border: 1px solid #c73200;
+}
+td:hover {
+  background-size:  100% 100%;
+  transform:scale(2,2);
+  transition-duration: 300ms;
+  transform-origin:center;
+  }
+sup {
+  font-size:15px
+}
+.element {
+  bottom: 0;
+  font-size: 6px;
+  left: 0;
+  line-height: normal;
+  margin: 0;
+  overflow: hidden;
+  padding: 0 4px 2px 4px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-overflow: clip;
+  
+}
+.atomicnumber {
+  font-size: 12px;
+  padding-right: 20px;
+  padding-top: 0px;
+  position: absolute;
+}
+.elementsymbol {
+  display: block;
+  margin-bottom:2px;
+}
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+#title {
+  text-align:center;
+}
+h1 {
+  font-size:48px;
+}
+.series {
+  font-size:12px;
+  border: 0px solid #000000;
+}
