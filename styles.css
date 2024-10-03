@@ -1,0 +1,48 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+td.info {
+    border-width: 0px;
+    border-radius: 0px;
+    width: 125px;
+    height: auto;
+    padding: 10px;
+    vertical-align: top;
+}
+h2 {
+    text-align: center;
+}
+
+.ylwbox {
+    background-color: rgb(230, 193, 109);
+    border-color: rgb(141, 131, 77);
+}
+
+.bluebox {
+    background-color: lightblue;
+    border-color: rgb(129, 171, 207);
+}
+
+body {
+    background-color: aliceblue;
+}
+
+img {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+}
