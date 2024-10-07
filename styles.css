@@ -21,14 +21,27 @@ h2 {
     text-align: center;
 }
 
-.ylwbox {
+.ylwbox.light-mode {
     background-color: rgb(230, 193, 109);
     border-color: rgb(141, 131, 77);
+    color: rgb(45, 49, 76);
 }
 
-.bluebox {
+.bluebox.light-mode {
     background-color: lightblue;
     border-color: rgb(129, 171, 207);
+}
+
+.ylwbox.dark-mode {
+    border-color: rgb(230, 193, 109);
+    background-color: rgb(141, 131, 77);
+    color: aliceblue;
+}
+
+.bluebox.dark-mode {
+    border-color: lightblue;
+    background-color: rgb(129, 171, 207);
+    color: aliceblue;
 }
 
 body {
@@ -45,4 +58,16 @@ img {
 
 h1 {
     text-align: center;
+}
+
+.dark-mode {
+    background-color: rgb(45, 49, 76);
+    color: aliceblue;
+    transition: 500ms;
+}
+
+.light-mode {
+    background-color: aliceblue;
+    color: rgb(45, 49, 76);
+    transition: 500ms;
 }
